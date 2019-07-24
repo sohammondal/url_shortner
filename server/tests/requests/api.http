@@ -1,0 +1,6 @@
+POST http://localhost:5000/api/url/shorten
+Content-Type: application/json
+
+{
+    "longUrl": "https://www.amazon.in/HRS-Rubber-Weight-Plates-Bush/dp/B0773MB72G/ref=pd_sbs_200_2/259-3735155-9161734?_encoding=UTF8&pd_rd_i=B0773NMH8T&pd_rd_r=73b995f9-76f8-11e9-9f7f-3dae794a9fc3&pd_rd_w=ImHnP&pd_rd_wg=bf0Fh&pf_rd_p=87667aae-831c-4952-ab47-0ae2a4d747da&pf_rd_r=ZX3WVXHTW87Y6DE02BT6&refRID=ZX3WVXHTW87Y6DE02BT6&th=1"
+}
