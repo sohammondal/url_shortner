@@ -1,15 +1,17 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "URL Shortner Backend REST Service",
   "main": "index.js",
   "scripts": {
+    "install": "npm install",
     "start": "node index",
     "dev": "nodemon index" 
   },
   "keywords": ["Node.js","Express","MongoDB"],
   "author": "Soham Mondal",
   "license": "ISC",
+  "homepage": "https://github.com/sohammondal/url_shortner#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/sohammondal/url_shortner.git"
@@ -23,5 +25,9 @@
     "mongoose": "^5.6.6",
     "shortid": "^2.2.14",
     "valid-url": "^1.0.9"
+  },
+  "engines": {
+    "npm": ">=5.5.0",
+    "node": ">=9.3.0"
   }
 }
