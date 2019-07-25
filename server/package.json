@@ -4,11 +4,10 @@
   "description": "URL Shortner Backend REST Service",
   "main": "index.js",
   "scripts": {
-    "install": "npm install",
     "start": "node index",
-    "dev": "nodemon index" 
+    "dev": "nodemon index"
   },
-  "keywords": ["Node.js","Express","MongoDB"],
+  "keywords": ["Node.js", "Express", "MongoDB"],
   "author": "Soham Mondal",
   "license": "ISC",
   "homepage": "https://github.com/sohammondal/url_shortner#readme",
