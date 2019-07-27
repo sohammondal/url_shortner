@@ -1,13 +1,26 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "private": true,
+  "author": "Soham Mondal",
+  "description": "URL Shortner - Client",
   "dependencies": {
     "axios": "^0.19.0",
     "react": "^16.8.6",
     "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
+  },
+  "keywords": [
+    "React",
+    "Bootstrap"
+  ],
+  "homepage": "https://github.com/sohammondal/url_shortner#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sohammondal/url_shortner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sohammondal/url_shortner/issues"
   },
   "scripts": {
     "start": "react-scripts start",
