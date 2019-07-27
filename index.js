@@ -2,6 +2,7 @@ const express = require("express"),
   app = express(),
   cors = require("cors"),
   mongoose = require("mongoose"),
+  path = require("path"),
   PORT = process.env.PORT || 5000,
   mongoURI = process.env.mongoURI;
 
