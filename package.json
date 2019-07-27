@@ -4,6 +4,7 @@
   "description": "URL Shortner Backend REST Service",
   "main": "index.js",
   "scripts": {
+    "client-install": "npm install --prefix client",
     "start": "node index.js",
     "server": "nodemon index.js --config nodemon.json",
     "client": "npm start --prefix client",
