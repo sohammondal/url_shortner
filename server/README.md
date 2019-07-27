@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to server 👋</h1>
+<h1>URL Shortner Backend REST Service👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/npm/v/server.svg">
   <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
@@ -17,7 +17,7 @@
   </a>
 </p>
 
-> URL Shortner Backend REST Service
+> This is the URL Shortner backend REST service
 
 ### 🏠 [Homepage](https://github.com/sohammondal/url_shortner#readme)
 
