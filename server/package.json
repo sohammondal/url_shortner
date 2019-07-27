@@ -4,10 +4,14 @@
   "description": "URL Shortner Backend REST Service",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node index.js",
+    "dev": "nodemon index.js --config nodemon.json"
   },
-  "keywords": ["Node.js", "Express", "MongoDB"],
+  "keywords": [
+    "Node.js",
+    "Express",
+    "MongoDB"
+  ],
   "author": "Soham Mondal",
   "license": "ISC",
   "homepage": "https://github.com/sohammondal/url_shortner#readme",
@@ -19,7 +23,7 @@
     "url": "https://github.com/sohammondal/url_shortner/issues"
   },
   "dependencies": {
-    "config": "^3.2.2",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.6.6",
     "shortid": "^2.2.14",
@@ -28,5 +32,8 @@
   "engines": {
     "npm": ">=5.5.0",
     "node": ">=9.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
