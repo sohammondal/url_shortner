@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js --config nodemon.json"
+    "server": "nodemon index.js --config nodemon.json",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [
     "Node.js",
@@ -23,6 +26,7 @@
     "url": "https://github.com/sohammondal/url_shortner/issues"
   },
   "dependencies": {
+    "concurrently": "^4.1.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.6.6",
