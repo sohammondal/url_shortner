@@ -82,7 +82,6 @@ class App extends Component {
         </div>
         <div className="col-sm-2">
           <button
-            // style={{ width: "100%" }}
             type="submit"
             onClick={() => this.handleSubmit()}
             className="btn btn-primary mb-2"
@@ -159,6 +158,51 @@ class App extends Component {
     );
   }
 
+  cardHeader() {
+    return (
+      <h5 className="card-header text-center">
+        <span aria-label="Urily" role="img">
+          🔗
+        </span>
+        Urily - a simple URL Shortner Service
+      </h5>
+    );
+  }
+
+  cardFooter() {
+    return (
+      <div className="card-footer text-muted">
+        <div className="float-left">
+          <h6 style={{ cursor: "default" }}>
+            <code>{"</>"}</code> with{" "}
+            <span aria-label="Love" role="img">
+              ❤️
+            </span>{" "}
+            by{" "}
+            <a
+              style={{ cursor: "pointer" }}
+              href="https://sohammondal.com"
+              className="alert-link"
+            >
+              Soham Mondal
+            </a>
+          </h6>
+        </div>
+
+        <div className="float-right">
+          <h6>
+            <a
+              href="https://github.com/sohammondal/url_shortner"
+              className="alert-link"
+            >
+              Source
+            </a>
+          </h6>
+        </div>
+      </div>
+    );
+  }
+
   render() {
     let isLoading = this.state.isLoading;
     return (
@@ -169,12 +213,14 @@ class App extends Component {
             opacity: isLoading ? 0.5 : 1
           }}
         >
-          <div className="card rounded-sm">
+          <div className="card rounded">
+            {this.cardHeader()}
             <div className="card-body">
               {isLoading ? this.spinner() : null}
               {this.inputForm()}
               {this.output()}
             </div>
+            {this.cardFooter()}
           </div>
         </div>
         {this.state.isError ? this.renderError() : null}
