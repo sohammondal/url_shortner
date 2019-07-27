@@ -122,7 +122,7 @@ class App extends Component {
         <div className="col-sm-2">
           <CopyToClipboard
             text={this.state.shortUrl}
-            onCopy={() => this.setState({ isCopied: true })}
+            onCopy={() => this.setState({ copied: true })}
           >
             <button
               disabled={this.state.shortUrl ? false : true}
