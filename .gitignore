@@ -1,5 +1,6 @@
 # Dependency directories
 */node_modules
+node_modules
 
 # dotenv environment variables file
 */.env
@@ -13,6 +14,6 @@
 
 */package-lock.json
 
-*/.eslintrc
+.eslintrc
 
-*/nodemon.json
+nodemon.json

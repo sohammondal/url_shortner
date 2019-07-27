@@ -14,7 +14,6 @@
     "React",
     "Bootstrap"
   ],
-  "homepage": "https://github.com/sohammondal/url_shortner#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/sohammondal/url_shortner.git"
@@ -46,5 +45,6 @@
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.0",
     "prettier": "^1.18.2"
-  }
+  },
+  "proxy": "http://localhost:5000"
 }

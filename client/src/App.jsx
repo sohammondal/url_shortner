@@ -19,7 +19,7 @@ class App extends Component {
     // e.preventDefault();
     try {
       this.setState({ isLoading: true });
-      let url = await axios.post("http://localhost:5000/api/url/shorten", {
+      let url = await axios.post("/api/url/shorten", {
         longUrl: this.state.longUrl
       });
       if (url) {
@@ -106,7 +106,6 @@ class App extends Component {
   }
 
   output() {
-    let copied = this.state.copied;
     return (
       <div className="row justify-content-center">
         <div className="col-sm-8">
@@ -128,9 +127,11 @@ class App extends Component {
             <button
               disabled={this.state.shortUrl ? false : true}
               // style={{ width: "56%" }}
-              className={`btn ${copied ? "btn-success" : "btn-primary"} mb-2`}
+              className={`btn ${
+                this.state.copied ? "btn-success" : "btn-primary"
+              } mb-2`}
             >
-              {copied ? "Copied" : "Copy"}
+              {this.state.copied ? "Copied" : "Copy"}
             </button>
           </CopyToClipboard>
           <button
