@@ -95,7 +95,7 @@ class App extends Component {
 
   reset() {
     this.setState({
-      isCopied: false,
+      copied: false,
       shortUrl: "",
       longUrl: "",
       isError: false,
