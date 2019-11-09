@@ -61,7 +61,7 @@
 
   
 
-<img  alt="Twitter: sohammondal_"  src="https://img.shields.io/twitter/follow/soham_sm_mondal.svg?style=social"  target="_blank"  />
+<img  alt="Twitter: sohammondal_"  src="https://img.shields.io/twitter/follow/sohammondal_.svg?style=social"  target="_blank"  />
 
   
 
@@ -209,7 +209,7 @@ There is a Heroku post build script so that you do not have to compile your Reac
 
   
 
-* Twitter: [@soham_sm_mondal](https://twitter.com/soham_sm_mondal)
+* Twitter: [@sohammondal_](https://twitter.com/sohammondal_)
 
   
 
