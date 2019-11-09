@@ -61,7 +61,7 @@
 
   
 
-<img  alt="Twitter: soham_sm_mondal"  src="https://img.shields.io/twitter/follow/soham_sm_mondal.svg?style=social"  target="_blank"  />
+<img  alt="Twitter: sohammondal_"  src="https://img.shields.io/twitter/follow/soham_sm_mondal.svg?style=social"  target="_blank"  />
 
   
 
